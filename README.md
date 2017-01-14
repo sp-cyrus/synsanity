@@ -24,7 +24,7 @@ The simplest way to build and install the modules is using `dkms`:
 ```
 cd .../synsanity
 dkms build .
-dkms install synsanity/0.1.2
+dkms install synsanity/0.1.3
 ```
 
 To build and install the iptables CLI modules:
