@@ -1,4 +1,4 @@
-KSRC=/usr/src/linux-headers-$(shell uname -r)
+KSRC=/usr/src/kernels/$(shell uname -r)
 CFLAGS=-I$(KSRC)/include/uapi -I$(KSRC)/include -DPIC -fPIC -Wno-cpp
 LDFLAGS=-lxtables -shared
 XF_MODULE=libxt_SYNSANITY
